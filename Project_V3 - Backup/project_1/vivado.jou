@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Sat Apr 03 23:23:47 2021
+# Process ID: 70732
+# Current directory: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent78664 C:\Users\hamas\Documents\Carleton\ELEC3500\Lab9\Project_V2\project_1\project_1.xpr
+# Log file: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/vivado.log
+# Journal file: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.xpr
+launch_simulation
+source top_tb.tcl
+close_sim
+launch_simulation
+source top_tb.tcl
+close_sim
+launch_simulation
+source top_tb.tcl
+import_files -norecurse C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/src/hdl/timer.v
+close_sim
+launch_simulation
+source top_tb.tcl
+close_sim
+launch_simulation
+source top_tb.tcl

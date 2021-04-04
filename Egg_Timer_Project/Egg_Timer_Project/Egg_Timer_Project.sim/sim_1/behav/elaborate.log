@@ -1,0 +1,32 @@
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto ba714a355d524c4ea94b22261f1882b1 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 1 for port second_ones [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Egg_Timer_Project/Egg_Timer_Project/Egg_Timer_Project.srcs/sim_1/imports/testbench/top_tb.v:68]
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 1 for port second_tens [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Egg_Timer_Project/Egg_Timer_Project/Egg_Timer_Project.srcs/sim_1/imports/testbench/top_tb.v:69]
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 1 for port minute_ones [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Egg_Timer_Project/Egg_Timer_Project/Egg_Timer_Project.srcs/sim_1/imports/testbench/top_tb.v:70]
+WARNING: [VRFC 10-278] actual bit length 4 differs from formal bit length 1 for port minute_tens [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Egg_Timer_Project/Egg_Timer_Project/Egg_Timer_Project.srcs/sim_1/imports/testbench/top_tb.v:71]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port load_second_ones [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Egg_Timer_Project/Egg_Timer_Project/Egg_Timer_Project.srcs/sources_1/imports/hdl/top.v:75]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port load_second_tens [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Egg_Timer_Project/Egg_Timer_Project/Egg_Timer_Project.srcs/sources_1/imports/hdl/top.v:76]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port load_minute_ones [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Egg_Timer_Project/Egg_Timer_Project/Egg_Timer_Project.srcs/sources_1/imports/hdl/top.v:77]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port load_minute_tens [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Egg_Timer_Project/Egg_Timer_Project/Egg_Timer_Project.srcs/sources_1/imports/hdl/top.v:78]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port load_min_ones [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Egg_Timer_Project/Egg_Timer_Project/Egg_Timer_Project.srcs/sources_1/imports/hdl/top.v:87]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port load_sec_tens [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Egg_Timer_Project/Egg_Timer_Project/Egg_Timer_Project.srcs/sources_1/imports/hdl/top.v:88]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port load_sec_ones [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Egg_Timer_Project/Egg_Timer_Project/Egg_Timer_Project.srcs/sources_1/imports/hdl/top.v:89]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port load_min_tens [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Egg_Timer_Project/Egg_Timer_Project/Egg_Timer_Project.srcs/sources_1/imports/hdl/top.v:90]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port minute_tens [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Egg_Timer_Project/Egg_Timer_Project/Egg_Timer_Project.srcs/sources_1/imports/hdl/top.v:92]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port minute_ones [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Egg_Timer_Project/Egg_Timer_Project/Egg_Timer_Project.srcs/sources_1/imports/hdl/top.v:93]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port second_tens [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Egg_Timer_Project/Egg_Timer_Project/Egg_Timer_Project.srcs/sources_1/imports/hdl/top.v:94]
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port second_ones [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Egg_Timer_Project/Egg_Timer_Project/Egg_Timer_Project.srcs/sources_1/imports/hdl/top.v:95]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.debounce
+Compiling module xil_defaultlib.egg_timer_fsm
+Compiling module xil_defaultlib.timer
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_behav

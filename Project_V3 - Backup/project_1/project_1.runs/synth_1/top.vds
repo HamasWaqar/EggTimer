@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Fri Apr 02 04:44:21 2021
+# Process ID: 72752
+# Current directory: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab 9 V2/Load_Counter/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab 9 V2/Load_Counter/project_1/project_1.runs/synth_1/top.vds
+# Journal file: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab 9 V2/Load_Counter/project_1/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 71752 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 289.258 ; gain = 79.785
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab 9 V2/Load_Counter/project_1/project_1.srcs/sources_1/imports/hdl/top.v:22]
+INFO: [Synth 8-638] synthesizing module 'debounce' [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab 9 V2/Load_Counter/project_1/project_1.srcs/sources_1/imports/hdl/debounce.v:22]
+	Parameter S0 bound to: 0 - type: integer 
+	Parameter S1 bound to: 1 - type: integer 
+	Parameter S11 bound to: 2 - type: integer 
+WARNING: [Synth 8-151] case item 32'b00000000000000000000000000000010 is unreachable [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab 9 V2/Load_Counter/project_1/project_1.srcs/sources_1/imports/hdl/debounce.v:47]
+INFO: [Synth 8-226] default block is never used [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab 9 V2/Load_Counter/project_1/project_1.srcs/sources_1/imports/hdl/debounce.v:34]
+WARNING: [Synth 8-567] referenced signal 'minutes_seconds_up' should be on the sensitivity list [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab 9 V2/Load_Counter/project_1/project_1.srcs/sources_1/imports/hdl/debounce.v:33]
+INFO: [Synth 8-256] done synthesizing module 'debounce' (1#1) [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab 9 V2/Load_Counter/project_1/project_1.srcs/sources_1/imports/hdl/debounce.v:22]
+ERROR: [Synth 8-344] instance 'soulstone' has duplicate port connection for port 'minutes_seconds_debounce' [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab 9 V2/Load_Counter/project_1/project_1.srcs/sources_1/imports/hdl/top.v:42]
+WARNING: [Synth 8-350] instance 'soulstone' of module 'debounce' requires 4 connections, but only 3 given [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab 9 V2/Load_Counter/project_1/project_1.srcs/sources_1/imports/hdl/top.v:38]
+ERROR: [Synth 8-344] instance 'realitystone' has duplicate port connection for port 'minutes_seconds_debounce' [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab 9 V2/Load_Counter/project_1/project_1.srcs/sources_1/imports/hdl/top.v:49]
+WARNING: [Synth 8-350] instance 'realitystone' of module 'debounce' requires 4 connections, but only 3 given [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab 9 V2/Load_Counter/project_1/project_1.srcs/sources_1/imports/hdl/top.v:45]
+INFO: [Synth 8-638] synthesizing module 'egg_timer_fsm' [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab 9 V2/Load_Counter/project_1/project_1.srcs/sources_1/imports/hdl/egg_timer_fsm.v:22]
+	Parameter set_time bound to: 0 - type: integer 
+	Parameter timer_state bound to: 1 - type: integer 
+	Parameter start_time bound to: 2 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab 9 V2/Load_Counter/project_1/project_1.srcs/sources_1/imports/hdl/egg_timer_fsm.v:40]
+ERROR: [Synth 8-285] failed synthesizing module 'egg_timer_fsm' [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab 9 V2/Load_Counter/project_1/project_1.srcs/sources_1/imports/hdl/egg_timer_fsm.v:22]
+ERROR: [Synth 8-285] failed synthesizing module 'top' [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab 9 V2/Load_Counter/project_1/project_1.srcs/sources_1/imports/hdl/top.v:22]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 325.746 ; gain = 116.273
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+11 Infos, 4 Warnings, 0 Critical Warnings and 5 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 02 04:44:30 2021...

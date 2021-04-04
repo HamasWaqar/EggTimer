@@ -33,12 +33,19 @@ module top_tb(
         reg enable_egg_timer;
         wire enable_egg_timer_LED;
         wire enable_timer_LED;
+        wire timer_load;
+        wire timer_counting;
+        wire debounce_minutes;
+        wire debounce_seconds;
+        wire load_sec_ones;
+        wire load_sec_tens;
+        wire load_min_ones;
+        wire load_min_tens;
         wire [3:0] second_ones;
         wire [3:0] second_tens;
         wire [3:0] minute_ones;
         wire [3:0] minute_tens;
-
-        
+  
 
         top dut(
             .clk(clk),
@@ -50,6 +57,14 @@ module top_tb(
             .enable_egg_timer (enable_egg_timer),
             .enable_egg_timer_LED (enable_egg_timer_LED),
             .enable_timer_LED (enable_timer_LED),
+            .timer_load (timer_load),
+            .timer_counting (timer_counting),
+            .debounce_minutes (debounce_minutes),
+            .debounce_seconds (debounce_seconds),
+            .load_sec_ones (load_sec_ones),
+            .load_sec_tens (load_sec_tens),
+            .load_min_ones (load_min_ones),
+            .load_min_tens (load_min_tens),
             .second_ones (second_ones),
             .second_tens (second_tens),
             .minute_ones (minute_ones),
@@ -84,12 +99,10 @@ module top_tb(
             #20;
             start = 1;
             #400;
-            $finish
-
-        
+            $finish; 
         end
         
         always begin
-            #10; clk = ~clk;
+            #5; clk = ~clk;
         end
 endmodule
