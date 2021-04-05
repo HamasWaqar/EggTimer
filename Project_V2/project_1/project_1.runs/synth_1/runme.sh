@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/hamas/Documents/Carleton/ELEC3500/Lab 9 V2/Load_Counter/project_1/project_1.runs/synth_1'
+HD_PWD='C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

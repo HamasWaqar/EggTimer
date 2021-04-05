@@ -1,4 +1,4 @@
-`timescale 1ns / 1ps
+`timescale 1s / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
 // Engineer: 
@@ -96,7 +96,6 @@ module top_tb(
             #100;
             reset = 1;
             #20;
-            $finish;
         end
         
         always begin

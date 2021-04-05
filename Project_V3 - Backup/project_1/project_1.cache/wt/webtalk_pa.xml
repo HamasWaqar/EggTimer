@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Sun Apr 04 00:27:56 2021">
+<application name="pa" timeStamp="Sun Apr 04 22:14:12 2021">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="bdc59917e31846aeb4b91559c7219380" type="ProjectID"/>
 <property name="ProjectIteration" value="1" type="ProjectIteration"/>
@@ -23,17 +23,17 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="OpenProject" value="1" type="JavaHandler"/>
 <property name="RunSynthesis" value="1" type="JavaHandler"/>
 <property name="SaveFileProxyHandler" value="2" type="JavaHandler"/>
-<property name="SimulationRun" value="41" type="JavaHandler"/>
+<property name="SimulationRun" value="42" type="JavaHandler"/>
 </item>
 <item name="Gui Resources Info">
 <property name="AddSrcWizard_SPECIFY_HDL_AND_NETLIST_FILES_OR_DIRECTORIES" value="1" type="GuiResourceData"/>
 <property name="BaseDialog_OK" value="6" type="GuiResourceData"/>
 <property name="CmdMsgDialog_OK" value="10" type="GuiResourceData"/>
-<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="39" type="GuiResourceData"/>
-<property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="42" type="GuiResourceData"/>
+<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="42" type="GuiResourceData"/>
+<property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="43" type="GuiResourceData"/>
 <property name="GettingStartedView_CREATE_NEW_PROJECT" value="1" type="GuiResourceData"/>
 <property name="GettingStartedView_OPEN_PROJECT" value="1" type="GuiResourceData"/>
-<property name="GraphicalView_ZOOM_FIT" value="29" type="GuiResourceData"/>
+<property name="GraphicalView_ZOOM_FIT" value="31" type="GuiResourceData"/>
 <property name="GraphicalView_ZOOM_OUT" value="1" type="GuiResourceData"/>
 <property name="MsgTreePanel_DISCARD_USER_CREATED_MESSAGES" value="2" type="GuiResourceData"/>
 <property name="MsgTreePanel_MESSAGE_SEVERITY" value="2" type="GuiResourceData"/>
@@ -42,14 +42,14 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="MsgView_WARNING_MESSAGES" value="1" type="GuiResourceData"/>
 <property name="PACommandNames_ADD_SOURCES" value="3" type="GuiResourceData"/>
 <property name="PACommandNames_AUTO_UPDATE_HIER" value="9" type="GuiResourceData"/>
-<property name="PACommandNames_SIMULATION_RUN_BEHAVIORAL" value="41" type="GuiResourceData"/>
+<property name="PACommandNames_SIMULATION_RUN_BEHAVIORAL" value="42" type="GuiResourceData"/>
 <property name="PAViews_CODE" value="3" type="GuiResourceData"/>
 <property name="PartChooser_BOARDS" value="2" type="GuiResourceData"/>
 <property name="ProgressDialog_CANCEL" value="2" type="GuiResourceData"/>
 <property name="ProjectNameChooser_CHOOSE_PROJECT_LOCATION" value="1" type="GuiResourceData"/>
 <property name="RDICommands_COPY" value="1" type="GuiResourceData"/>
 <property name="RDICommands_DELETE" value="3" type="GuiResourceData"/>
-<property name="RDIViews_WAVEFORM_VIEWER" value="90" type="GuiResourceData"/>
+<property name="RDIViews_WAVEFORM_VIEWER" value="91" type="GuiResourceData"/>
 <property name="RemoveSourcesDialog_ALSO_DELETE" value="1" type="GuiResourceData"/>
 <property name="SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE" value="1" type="GuiResourceData"/>
 <property name="SimulationScopesPanel_SIMULATION_SCOPES_TREE_TABLE" value="1" type="GuiResourceData"/>

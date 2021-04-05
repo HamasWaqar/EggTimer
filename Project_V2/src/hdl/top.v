@@ -20,48 +20,60 @@
 
 
 module top(
-    input clk,
+    input CLK100MHZ,
     input cook_time,
     input minutes_up,
     input seconds_up,
     input start,
     input reset,
     input enable_timer,
+    output pulse_500Hz,
+    output pulse_1Hz,
+    output [6:0] seg,
+    output [7:0] AN,
     output enable_timer_countdown, 
     output enable_load,
-    output [3:0] load_second_ones,
-    output [3:0] load_second_tens, 
-    output [3:0] load_minute_ones,
-    output [3:0] load_minute_tens,
-    output debounce_min,
-    output debounce_sec,
-    output [3:0] second_ones,
-    output [3:0] second_tens, 
-    output [3:0] minute_ones,
-    output [3:0] minute_tens
+    output state
     );  
-
+    
+    //wire pulse_500Hz, pulse_1Hz;
+    
+    clock timestone (
+        .CLK100Mhz(CLK100MHZ),
+        .reset (reset),
+        .pulse_500Hz (pulse_500Hz),
+        .pulse_1Hz (pulse_1Hz)
+    );
+    
     wire debounce_minutes, debounce_seconds;
+    //wire enable_timer_countdown, enable_load;
+    wire [3:0] load_second_ones;
+    wire [3:0] load_second_tens;
+    wire [3:0] load_minute_ones;
+    wire [3:0] load_minute_tens;
+    wire [3:0] second_ones;
+    wire [3:0] second_tens;
+    wire [3:0] minute_ones;
+    wire [3:0] minute_tens;
 
     debounce soulstone (
-        .pulse_1Hz (clk),
+        .pulse_1Hz (pulse_1Hz),
         .minutes_seconds_up (minutes_up),
         .reset (reset),
         .minutes_seconds_debounce (debounce_minutes)
     );
 
     debounce realitystone (
-        .pulse_1Hz (clk),
+        .pulse_1Hz (pulse_1Hz),
         .minutes_seconds_up (seconds_up),
         .reset (reset),
         .minutes_seconds_debounce (debounce_seconds)
     );
     
-    assign debounce_min = debounce_minutes;
-    assign debounce_sec = debounce_seconds;
     
     egg_timer_fsm mindstone (
-        .pulse_1Hz (clk),
+        .pulse_1Hz (pulse_1Hz),
+        .pulse_500Hz (pulse_500Hz),
         .cook_time (cook_time),
         .minutes_debounce_up (debounce_minutes),
         .seconds_debounce_up (debounce_seconds),
@@ -73,11 +85,12 @@ module top(
         .load_second_ones (load_second_ones),
         .load_second_tens (load_second_tens), 
         .load_minute_ones (load_minute_ones),
-        .load_minute_tens (load_minute_tens)
+        .load_minute_tens (load_minute_tens),
+        .state (state)
     ); 
     
     timer spacestone(
-        .pulse_1Hz (clk),
+        .pulse_1Hz (pulse_1Hz),
         .reset (reset),
         .load_min_tens (load_minute_tens),
         .load_min_ones (load_minute_ones),
@@ -90,6 +103,17 @@ module top(
         .minute_ones (minute_ones),
         .minute_tens (minute_tens)
         );
+        
+     bcdto7segment_display powerstone(
+        .pulse_500Hz (pulse_500Hz),
+        .sec_digit1 (second_ones),
+        .sec_digit2 (second_tens),
+        .min_digit1 (minute_ones),
+        .min_digit2 (minute_tens),
+        .seg (seg),
+        .AN (AN)
+      );
+     
 
 
 endmodule

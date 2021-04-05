@@ -3,8 +3,10 @@
 Oct 10 2016
 19:46:48
 C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.sim/sim_1/behav/glbl.v,1476033524,verilog,,,,glbl,,,,,,,,
-C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.srcs/sim_1/imports/testbench/top_tb.v,1617511055,verilog,,,,top_tb,,,,,,,,
-C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.srcs/sources_1/imports/hdl/debounce.v,1617354705,verilog,,,,debounce,,,,,,,,
-C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.srcs/sources_1/imports/hdl/egg_timer_fsm.v,1617509200,verilog,,,,egg_timer_fsm,,,,,,,,
-C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.srcs/sources_1/imports/hdl/timer.v,1617235793,verilog,,,,timer,,,,,,,,
-C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.srcs/sources_1/imports/hdl/top.v,1617510940,verilog,,,,top,,,,,,,,
+C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.srcs/sim_1/imports/testbench/top_tb.v,1617515016,verilog,,,,top_tb,,,../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.srcs/sources_1/imports/hdl/clock.v,1617069934,verilog,,,,clock,,,../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.srcs/sources_1/imports/hdl/debounce.v,1617354705,verilog,,,,debounce,,,../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.srcs/sources_1/imports/hdl/egg_timer_fsm.v,1617509200,verilog,,,,egg_timer_fsm,,,../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.srcs/sources_1/imports/hdl/timer.v,1617235793,verilog,,,,timer,,,../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.srcs/sources_1/imports/hdl/top.v,1617515428,verilog,,,,top,,,../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.v,1617515111,verilog,,,,clk_wiz_0;clk_wiz_0_clk_wiz_0_clk_wiz,,,../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,

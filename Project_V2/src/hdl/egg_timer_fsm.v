@@ -21,6 +21,7 @@
 
 module egg_timer_fsm (
     input pulse_1Hz,
+    input pulse_500Hz,
     input cook_time,
     input minutes_debounce_up,
     input seconds_debounce_up,
@@ -32,22 +33,25 @@ module egg_timer_fsm (
     output reg[3:0] load_second_ones,
     output reg[3:0] load_second_tens, 
     output reg [3:0] load_minute_ones,
-    output reg [3:0] load_minute_tens
+    output reg [3:0] load_minute_tens,
+    output reg state
     );  
 
-    reg [1:0] state, nextstate;
-    parameter set_time = 0, timer_state = 1, start_time = 2;
-
+    reg nextstate;
+    parameter set_time = 0, timer_state = 1;
+    
+    /*
+    Switches between the two states: the set time state and the timer_state
+    set_time State is the state where the time is loaded into the timer
+    Timer_state is the states that rins the timer
+    */
     always @ (state or cook_time or start) begin
        case (state)
             set_time: begin
                 if (start)
-                    nextstate = start_time;
+                    nextstate = timer_state;
                 else
                     nextstate = set_time;
-            end
-            start_time: begin
-                nextstate = timer_state;
             end
             timer_state: begin
                 if (cook_time)
@@ -55,17 +59,20 @@ module egg_timer_fsm (
                 else
                     nextstate = timer_state;
             end
+            default: nextstate = set_time;
        endcase
     end
 
-    always @(posedge pulse_1Hz, posedge reset) begin
+    always @(posedge pulse_500Hz, posedge reset) begin
         if (reset)
-            state = timer_state;
+            state <= set_time;
         else
-            state = nextstate;
+            state <= nextstate;
     end
 
-
+    /*
+        Function upcounter to count imcrementally to load the time
+    */
     function [3:0] upcount;
         input [3:0] current_number;
         input ten_digit;
@@ -80,7 +87,9 @@ module egg_timer_fsm (
     endfunction
 
 
-    
+    /*
+      loades the minutes and seconds into the timer
+    */
     assign enable_minutes_load_ten = (load_minute_ones == 9) ? 1 : 0;
     assign enable_seconds_load_ten = (load_second_ones == 9) ? 1 : 0;
     
@@ -106,21 +115,25 @@ module egg_timer_fsm (
         end
     end
     
-    always @ ( posedge pulse_1Hz or posedge reset) begin
-        if (reset)
+    /*
+     Sends singals to load values to the timer and enable the timer to start counting down
+    */
+    always @ ( posedge pulse_500Hz or posedge reset) begin
+        if (reset) begin
             enable_load <= 0;
-        else if ((state == set_time) && (enable_timer == 1))
-           enable_load <= 1; 
-        else
-            enable_load <= 0;
-    end
-    
-    always @ ( posedge pulse_1Hz or posedge reset) begin
-        if (reset)
             enable_timer_countdown <= 0;
-        else if ((state == timer_state) && (enable_timer == 1))
-           enable_timer_countdown <= 1; 
-        else
-            enable_timer_countdown <= 0;
+        end
+        else begin
+            if (state == set_time) begin
+               enable_load <= 1; 
+               enable_timer_countdown <= 0;
+            end else if (state == timer_state) begin
+                enable_timer_countdown <= 1; 
+                enable_load <= 0;
+            end else begin
+                enable_load <= 0;
+                enable_timer_countdown <= 0;
+            end
+        end
     end
 endmodule

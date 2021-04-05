@@ -29,7 +29,8 @@ module debounce (
     parameter S0 = 0, S1 = 1, S11 = 2;
     reg [1:0] state;
     reg [1:0] nextstate;
-
+    
+    
     always @ (state or minutes_seconds_up) begin
       case (state)
             S0: begin
