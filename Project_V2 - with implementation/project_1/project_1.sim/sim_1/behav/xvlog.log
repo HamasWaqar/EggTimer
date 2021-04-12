@@ -1,0 +1,33 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz_0_clk_wiz
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/imports/hdl/bcdto7segment_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bcdto7segment_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/src/hdl/Audio.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Audio
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/src/hdl/microphone.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module microphone
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/imports/hdl/bcdto7segment_display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bcdto7segment_display
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/imports/hdl/clock.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clock
+INFO: [VRFC 10-2458] undeclared symbol locked, assumed default net type wire [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/imports/hdl/clock.v:45]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/imports/hdl/timer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module timer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/imports/hdl/debounce.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debounce
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/imports/hdl/egg_timer_fsm.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module egg_timer_fsm
+INFO: [VRFC 10-2458] undeclared symbol enable_minutes_load_ten, assumed default net type wire [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/imports/hdl/egg_timer_fsm.v:94]
+INFO: [VRFC 10-2458] undeclared symbol enable_seconds_load_ten, assumed default net type wire [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/imports/hdl/egg_timer_fsm.v:95]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/imports/hdl/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2458] undeclared symbol pulse_17MHz, assumed default net type wire [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/imports/hdl/top.v:51]
+INFO: [VRFC 10-2458] undeclared symbol enable_load, assumed default net type wire [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/imports/hdl/top.v:91]
+INFO: [VRFC 10-2458] undeclared symbol enable_timer_countdown, assumed default net type wire [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/imports/hdl/top.v:92]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sim_1/imports/testbench/top_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.sim/sim_1/behav/glbl.v:6]

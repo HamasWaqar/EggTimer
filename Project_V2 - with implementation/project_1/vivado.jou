@@ -1,0 +1,104 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Fri Apr 09 11:54:08 2021
+# Process ID: 57552
+# Current directory: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12876 C:\Users\hamas\Documents\Carleton\ELEC3500\Lab9\Project_V2 - with implementation\project_1\project_1.xpr
+# Log file: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/vivado.log
+# Journal file: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.xpr}
+close [ open {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/src/hdl/microphone.v} w ]
+add_files {{C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/src/hdl/microphone.v}}
+set_property -dict [list CONFIG.CLKOUT2_USED {true} CONFIG.CLKOUT2_REQUESTED_OUT_FREQ {25} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKFBOUT_MULT_F {6.250} CONFIG.MMCM_CLKOUT0_DIVIDE_F {125.000} CONFIG.MMCM_CLKOUT1_DIVIDE {25} CONFIG.NUM_OUT_CLKS {2} CONFIG.CLKOUT1_JITTER {270.159} CONFIG.CLKOUT1_PHASE_ERROR {128.132} CONFIG.CLKOUT2_JITTER {196.678} CONFIG.CLKOUT2_PHASE_ERROR {128.132}] [get_ips clk_wiz_0]
+generate_target all [get_files  {{C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}]
+catch { config_ip_cache -export [get_ips -all clk_wiz_0] }
+export_ip_user_files -of_objects [get_files {{C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}] -no_script -sync -force -quiet
+reset_run clk_wiz_0_synth_1
+launch_runs -jobs 6 clk_wiz_0_synth_1
+wait_on_run clk_wiz_0_synth_1
+export_simulation -of_objects [get_files {{C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}] -directory {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.ip_user_files} -ipstatic_source_dir {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.cache/compile_simlib/modelsim} {questa=C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.cache/compile_simlib/questa} {riviera=C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.cache/compile_simlib/riviera} {activehdl=C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+close [ open {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/src/hdl/Audio.v} w ]
+add_files {{C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/src/hdl/Audio.v}}
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+set_property -dict [list CONFIG.CLKOUT2_REQUESTED_OUT_FREQ {17} CONFIG.MMCM_DIVCLK_DIVIDE {10} CONFIG.MMCM_CLKFBOUT_MULT_F {62.875} CONFIG.MMCM_CLKOUT0_DIVIDE_F {125.750} CONFIG.MMCM_CLKOUT1_DIVIDE {37} CONFIG.CLKOUT1_JITTER {929.100} CONFIG.CLKOUT1_PHASE_ERROR {875.300} CONFIG.CLKOUT2_JITTER {780.581} CONFIG.CLKOUT2_PHASE_ERROR {875.300}] [get_ips clk_wiz_0]
+generate_target all [get_files  {{C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}]
+catch { config_ip_cache -export [get_ips -all clk_wiz_0] }
+export_ip_user_files -of_objects [get_files {{C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}] -no_script -sync -force -quiet
+reset_run clk_wiz_0_synth_1
+launch_runs -jobs 6 clk_wiz_0_synth_1
+wait_on_run clk_wiz_0_synth_1
+export_simulation -of_objects [get_files {{C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci}}] -directory {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.ip_user_files} -ipstatic_source_dir {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.cache/compile_simlib/modelsim} {questa=C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.cache/compile_simlib/questa} {riviera=C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.cache/compile_simlib/riviera} {activehdl=C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+launch_simulation
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+wait_on_run impl_1
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]

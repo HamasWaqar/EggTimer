@@ -28,20 +28,23 @@ module timer(
     input [3:0] load_sec_tens,
     input load,
     input enable,
+    input enable_timer,
     output reg [3:0] second_ones,
     output reg [3:0] second_tens,
     output reg [3:0] minute_ones,
     output reg [3:0] minute_tens
     );
-    
+    /*
+        if loads is 1, it loads the value into the timer, else the timer decrememnt gradually by one
+    */
     
     /*
-        Downcounter to downcount the time
+        Downcounter to downcount the times - using a function
     */  
     function [3:0] downcount;
         input [3:0] current_number;
         input ten_digit;
-        begin
+        begin;
             if (ten_digit && (current_number == 4'd0))
                 downcount = 4'd5;
             else if (~ten_digit && (current_number == 4'd0))
@@ -57,7 +60,7 @@ module timer(
        Timer block: loads and counts down the time for the timer
     */
     always @ (posedge pulse_1Hz or posedge reset) begin
-        if (reset) begin
+        if (reset || ~enable_timer) begin
           second_ones <= 0;
           second_tens <= 0;
           minute_ones <= 0;

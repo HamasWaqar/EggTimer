@@ -1,0 +1,277 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Fri Apr 09 10:23:21 2021
+# Process ID: 66536
+# Current directory: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent72640 C:\Users\hamas\Documents\Carleton\ELEC3500\Lab9\Project_V2\project_1\project_1.xpr
+# Log file: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/vivado.log
+# Journal file: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Fri Apr 09 10:34:31 2021] Launched synth_1...
+Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/synth_1/runme.log
+[Fri Apr 09 10:34:31 2021] Launched impl_1...
+Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 20 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.3
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/.Xil/Vivado-66536-DESKTOP-V2DGADJ/dcp/top_early.xdc]
+INFO: [Common 17-41] Interrupt caught. Command should exit soon. [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:56]
+INFO: [Common 17-344] 'create_clock' was cancelled [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:56]
+Finished Parsing XDC File [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/.Xil/Vivado-66536-DESKTOP-V2DGADJ/dcp/top_early.xdc]
+Parsing XDC File [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/.Xil/Vivado-66536-DESKTOP-V2DGADJ/dcp/top.xdc]
+Finished Parsing XDC File [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/.Xil/Vivado-66536-DESKTOP-V2DGADJ/dcp/top.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1032.289 ; gain = 0.000
+open_run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 1037.633 ; gain = 169.188
+INFO: [Common 17-344] 'open_run' was cancelled
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B06735A
+set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210292B06735A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292B06735A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B06735A
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Fri Apr 09 10:45:17 2021] Launched synth_1...
+Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/synth_1/runme.log
+[Fri Apr 09 10:45:17 2021] Launched impl_1...
+Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/.Xil/Vivado-66536-DESKTOP-V2DGADJ/dcp/top_early.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 1668.102 ; gain = 513.484
+Finished Parsing XDC File [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/.Xil/Vivado-66536-DESKTOP-V2DGADJ/dcp/top_early.xdc]
+Parsing XDC File [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/.Xil/Vivado-66536-DESKTOP-V2DGADJ/dcp/top.xdc]
+Finished Parsing XDC File [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/.Xil/Vivado-66536-DESKTOP-V2DGADJ/dcp/top.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.044 . Memory (MB): peak = 1668.129 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.044 . Memory (MB): peak = 1668.129 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:18 ; elapsed = 00:00:14 . Memory (MB): peak = 1776.629 ; gain = 671.820
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210292B06735A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292B06735A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B06735A
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210292B06735A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292B06735A
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B06735A
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Fri Apr 09 11:00:26 2021] Launched synth_1...
+Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/synth_1/runme.log
+[Fri Apr 09 11:00:26 2021] Launched impl_1...
+Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Fri Apr 09 11:02:57 2021] Launched synth_1...
+Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/synth_1/runme.log
+[Fri Apr 09 11:02:57 2021] Launched impl_1...
+Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Fri Apr 09 11:08:58 2021] Launched impl_1...
+Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Fri Apr 09 11:15:59 2021] Launched synth_1...
+Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/synth_1/runme.log
+[Fri Apr 09 11:15:59 2021] Launched impl_1...
+Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Fri Apr 09 11:23:52 2021] Launched synth_1...
+Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/synth_1/runme.log
+[Fri Apr 09 11:23:52 2021] Launched impl_1...
+Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Fri Apr 09 11:31:47 2021] Launched synth_1...
+Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/synth_1/runme.log
+[Fri Apr 09 11:31:47 2021] Launched impl_1...
+Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Fri Apr 09 11:32:27 2021] Launched synth_1...
+Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/synth_1/runme.log
+[Fri Apr 09 11:32:27 2021] Launched impl_1...
+Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Fri Apr 09 11:36:44 2021] Launched synth_1...
+Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/synth_1/runme.log
+[Fri Apr 09 11:36:44 2021] Launched impl_1...
+Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Fri Apr 09 11:45:25 2021] Launched synth_1...
+Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/synth_1/runme.log
+[Fri Apr 09 11:45:25 2021] Launched impl_1...
+Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 6
+[Fri Apr 09 11:49:01 2021] Launched synth_1...
+Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/synth_1/runme.log
+[Fri Apr 09 11:49:01 2021] Launched impl_1...
+Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/impl_1/runme.log
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+ERROR: [Labtools 27-2269] No devices detected on target localhost:3121/xilinx_tcf/Digilent/210292B06735A.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-register this hardware target.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292B06735A

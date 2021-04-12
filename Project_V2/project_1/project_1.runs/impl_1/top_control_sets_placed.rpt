@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
-| Date         : Sun Apr 04 17:31:56 2021
+| Date         : Fri Apr 09 11:50:07 2021
 | Host         : DESKTOP-V2DGADJ running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
 | Design       : top
@@ -23,7 +23,7 @@ Table of Contents
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
 | Number of unique control sets                            |    14 |
-| Unused register locations in slices containing registers |    63 |
+| Unused register locations in slices containing registers |    64 |
 +----------------------------------------------------------+-------+
 
 
@@ -33,8 +33,8 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |              12 |            4 |
-| No           | No                    | Yes                    |               9 |            5 |
+| No           | No                    | No                     |              12 |            7 |
+| No           | No                    | Yes                    |               8 |            3 |
 | No           | Yes                   | No                     |               0 |            0 |
 | Yes          | No                    | No                     |               0 |            0 |
 | Yes          | No                    | Yes                    |              32 |            9 |
@@ -49,19 +49,19 @@ Table of Contents
 |            Clock Signal           |             Enable Signal             |              Set/Reset Signal             | Slice Load Count | Bel Load Count |
 +-----------------------------------+---------------------------------------+-------------------------------------------+------------------+----------------+
 |  timestone/dormammu/inst/clk_out1 |                                       |                                           |                2 |              2 |
-|  pulse_1Hz_OBUF_BUFG              |                                       | reset_IBUF                                |                2 |              4 |
-|  pulse_1Hz_OBUF_BUFG              | realitystone/E[0]                     | reset_IBUF                                |                1 |              4 |
+|  timestone/pulse_500Hz_OBUF       |                                       | reset_IBUF                                |                1 |              3 |
 |  pulse_1Hz_OBUF_BUFG              | soulstone/load_minute_ones_reg[3][0]  | reset_IBUF                                |                1 |              4 |
+|  pulse_1Hz_OBUF_BUFG              | realitystone/E[0]                     | reset_IBUF                                |                1 |              4 |
 |  pulse_1Hz_OBUF_BUFG              | mindstone/load_minute_tens[3]_i_1_n_0 | reset_IBUF                                |                1 |              4 |
 |  pulse_1Hz_OBUF_BUFG              | mindstone/load_second_tens[3]_i_1_n_0 | reset_IBUF                                |                1 |              4 |
+|  pulse_1Hz_OBUF_BUFG              | mindstone/second_ones_reg[3][0]       | reset_IBUF                                |                1 |              4 |
 |  pulse_1Hz_OBUF_BUFG              | spacestone/minute_ones[3]_i_1_n_0     | reset_IBUF                                |                1 |              4 |
-|  pulse_1Hz_OBUF_BUFG              | spacestone/minute_tens[3]_i_1_n_0     | reset_IBUF                                |                1 |              4 |
-|  pulse_1Hz_OBUF_BUFG              | spacestone/second_ones[3]_i_1_n_0     | reset_IBUF                                |                1 |              4 |
-|  pulse_1Hz_OBUF_BUFG              | spacestone/second_tens[3]_i_1_n_0     | reset_IBUF                                |                2 |              4 |
-|  timestone/pulse_500Hz_OBUF       |                                       | reset_IBUF                                |                3 |              5 |
-|  timestone/pulse_500Hz_OBUF       |                                       |                                           |                2 |             10 |
-|  timestone/dormammu/inst/clk_out1 | timestone/p_0_in                      | timestone/divider_count_500Hz[25]_i_1_n_0 |                8 |             26 |
+|  pulse_1Hz_OBUF_BUFG              | spacestone/minute_tens[3]_i_1_n_0     | reset_IBUF                                |                2 |              4 |
+|  pulse_1Hz_OBUF_BUFG              | spacestone/second_tens[3]_i_1_n_0     | reset_IBUF                                |                1 |              4 |
+|  pulse_1Hz_OBUF_BUFG              |                                       | reset_IBUF                                |                2 |              5 |
+|  timestone/pulse_500Hz_OBUF       |                                       |                                           |                5 |             10 |
 |  timestone/dormammu/inst/clk_out1 | timestone/p_0_in                      | timestone/divider_count_1Hz[25]_i_1_n_0   |                8 |             26 |
+|  timestone/dormammu/inst/clk_out1 | timestone/p_0_in                      | timestone/divider_count_500Hz[25]_i_1_n_0 |                8 |             26 |
 +-----------------------------------+---------------------------------------+-------------------------------------------+------------------+----------------+
 
 
@@ -69,7 +69,8 @@ Table of Contents
 | Fanout | Number of ControlSets |
 +--------+-----------------------+
 | 2      |                     1 |
-| 4      |                     9 |
+| 3      |                     1 |
+| 4      |                     8 |
 | 5      |                     1 |
 | 10     |                     1 |
 | 16+    |                     2 |

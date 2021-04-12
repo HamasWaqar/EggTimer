@@ -5,11 +5,11 @@
 // 
 // Create Date: 03/28/2021 03:34:24 PM
 // Design Name: Egg Timer
-// Module Name: clock
+// Module Name: debounce
 // Project Name: 
 // Target Devices: NEXYS A7 100 T
 // Tool Versions: 
-// Description: Clock Divider - Output two syncronous clocks at 500 Hz and 1 Hz fro the BCD Display and the 
+// Description: Debounce circuit
 // Dependencies: 
 // 
 // Revision:
@@ -25,7 +25,18 @@ module debounce (
     input reset,
     output minutes_seconds_debounce
     );  
-
+    /*
+    
+        IDEA: Need to Get to bits in a datastream high consistantly... in other words, need to find when there is "11" in a datastream
+        Therefore use a state machine
+        where 
+            current state S0: if the next bit is 0, the next state will be S0 as no one is found
+            current state S0: if the next bit is 1, the next state will be S1 as a bit one is found
+            current state S1: if the next bit is 1, then two sequenctial bits is found as such next state is S11 and debounde is 1
+            current state S1: if next bit is 0, then two sequencial bit is not found as such next state is S0
+            current state S11: if next bit is 0, then the sequency breaks so next state is S0
+            current state S11: if next bit is 1, then again two sequenctial bits is found as such next state is S11 and debounde is 1
+    **/
     parameter S0 = 0, S1 = 1, S11 = 2;
     reg [1:0] state;
     reg [1:0] nextstate;

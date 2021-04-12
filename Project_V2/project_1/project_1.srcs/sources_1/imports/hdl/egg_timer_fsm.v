@@ -33,10 +33,11 @@ module egg_timer_fsm (
     output reg[3:0] load_second_ones,
     output reg[3:0] load_second_tens, 
     output reg [3:0] load_minute_ones,
-    output reg [3:0] load_minute_tens,
-    output reg state
+    output reg [3:0] load_minute_tens
     );  
 
+    
+    reg state;
     reg nextstate;
     parameter set_time = 0, timer_state = 1;
     
@@ -119,7 +120,7 @@ module egg_timer_fsm (
      Sends singals to load values to the timer and enable the timer to start counting down
     */
     always @ ( posedge pulse_500Hz or posedge reset) begin
-        if (reset) begin
+        if (reset || ~enable_timer) begin
             enable_load <= 0;
             enable_timer_countdown <= 0;
         end

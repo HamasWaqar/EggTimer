@@ -1,0 +1,1719 @@
+/*
+
+Vivado v2016.3 (64-bit)
+SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+Process ID: 47960
+
+Current time: 	4/7/21 5:23:28 PM EDT
+Time zone: 	Eastern Standard Time (America/New_York)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1707x960
+Screen resolution (DPI): 96
+Available screens: 2
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.3/tps/win64/jre
+
+User name: 	hamas
+User home directory: C:/Users/hamas
+User working directory: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2
+User country: 	CA
+User language: 	en
+User locale: 	en_CA
+
+RDI base root directory: C:/Xilinx/Vivado
+RDI data directory: C:/Xilinx/Vivado/2016.3/data
+RDI bin directory: C:/Xilinx/Vivado/2016.3/bin
+
+Vivado preferences path: C:/Users/hamas/AppData/Roaming/Xilinx/Vivado/2016.3/vivado.ini
+Vivado layouts directory: C:/Users/hamas/AppData/Roaming/Xilinx/Vivado/2016.3/layouts
+
+GUI allocated memory:	216 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 531 MB
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\hamas\Documents\Carleton\ELEC3500\Lab9\Audio\lab9_v2\lab9_v2.xpr. Version: Vivado v2016.3 
+// bt:g (cd:JFrame):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// Tcl Message: open_project C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.xpr 
+// [GUI Memory]: 36 MB (+35457kb) [00:00:04]
+// [Engine Memory]: 424 MB (+292645kb) [00:00:04]
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 39 MB (+954kb) [00:00:05]
+// [Engine Memory]: 517 MB (+76038kb) [00:00:05]
+// [GUI Memory]: 46 MB (+5716kb) [00:00:06]
+// [GUI Memory]: 54 MB (+5597kb) [00:00:06]
+// Tcl Message: open_project C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Microphone/lab9_v2' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.3/data/ip'. 
+// Project name: lab9_v2; location: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 537 MB. GUI used memory: 34 MB. Current time: 4/7/21 5:23:29 PM EDT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 57 MB (+777kb) [00:14:36]
+// [GUI Memory]: 61 MB (+537kb) [00:17:53]
+// [GUI Memory]: 65 MB (+617kb) [00:22:29]
+// Elapsed time: 1425 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys-A7-100T-Master.xdc]", 5, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, Nexys-A7-100T-Master.xdc]", 5, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+// [GUI Memory]: 72 MB (+4010kb) [00:23:55]
+// [GUI Memory]: 76 MB (+425kb) [00:25:05]
+// Elapsed time: 359 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("top.v", 196, 455); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 196, 455); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 196, 455); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 92, 377); // bF:I (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 539 MB. GUI used memory: 36 MB. Current time: 4/7/21 5:53:30 PM EDT
+// Elapsed time: 10 seconds
+selectCodeEditor("top.v", 51, 364); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 51, 364, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("top.v", 95, 396); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 81 MB (+1090kb) [00:34:03]
+// [GUI Memory]: 85 MB (+303kb) [00:43:33]
+// Elapsed time: 878 seconds
+selectCodeEditor("top.v", 186, 145); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 122, 193); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 134, 215); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("top.v", 56, 360); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 113, 268); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 202, 294); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("top.v", 97, 353); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 46 seconds
+selectCodeEditor("top.v", 146, 178); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 163, 184); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 171, 365); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("top.v", 394, 333); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("top.v", 105, 183); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 92, 368); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 64 seconds
+selectCodeEditor("top.v", 154, 370); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 252, 395); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 253, 383); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 138, 366); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 57, 387); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 224, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 217, 417); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 300, 419); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 270, 436); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 113 seconds
+selectCodeEditor("top.v", 209, 365); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 245, 361); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 290, 432); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("top.v", 206, 261); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("top.v", 161, 268); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 166, 268); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 276, 227); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 344, 283); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 109, 315); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 160, 312); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 173, 271); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("top.v", 137, 291); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("top.v", 31, 145); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 64, 354); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 83, 285); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 61, 314); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 155, 283); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("top.v", 11, 326); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 128, 296); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("top.v", 215, 114); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 150, 301); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("top.v", 103, 99); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 148, 305); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 43, 404); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-A7-100T-Master.xdc", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 0, 202); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 22 seconds
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 1, 96); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceCommand.PACommandNames_PROJECT_SETTINGS, "project_settings"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROJECT_SETTINGS
+// Project Settings: addNotify
+// [GUI Memory]: 90 MB (+1264kb) [00:54:13]
+dismissDialog("Project Settings"); // i:aA (cd:JFrame)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // v:K (u:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ai:r (cd:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, ai:r)
+// bt:g (cd:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Save Project"); // ai:r (cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// 'ci' command handler elapsed time: 3 seconds
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// bt:g (cd:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Apr 07 18:17:51 2021] Launched synth_1... Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/synth_1/runme.log [Wed Apr 07 18:17:51 2021] Launched impl_1... Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 133 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bt:g (cd:JFrame):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, bt:g)
+// TclEventType: DESIGN_CLOSE
+// [Engine Memory]: 558 MB (+15186kb) [00:56:47]
+// TclEventType: DESIGN_NEW_FAILED
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2016.3 INFO: [Device 21-403] Loading part xc7a100tcsg324-1 INFO: [Common 17-41] Interrupt caught. Command should exit soon. INFO: [Common 17-344] 'open_run' was cancelled 
+dismissDialog("Open Implemented Design"); // bt:g (cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 568 MB. GUI used memory: 40 MB. Current time: 4/7/21 6:20:10 PM EDT
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 26, true); // v:K (u:D, cd:JFrame) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h:k (JPanel:JComponent, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac:JMenuItem (ai:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bt:g (cd:JFrame):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2016.3   **** Build date : Oct 10 2016-19:47:06     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292B06735A 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: current_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 658 MB (+76348kb) [00:57:00]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bt:g (cd:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 42 MB. Current time: 4/7/21 6:20:25 PM EDT
+selectMenuItem((HResource) null, "xc7a100t_0"); // ac:JMenuItem (ai:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// be:aj (cd:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, be:aj)
+// bt:g (cd:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // be:aj (cd:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'B' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bt:g (cd:JFrame)
+// Elapsed time: 275 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("top.v", 35, 279); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 58 seconds
+selectCodeEditor("top.v", 160, 215); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 206, 193); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 210, 197); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 97, 202); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 162, 94); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 245, 161); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 235 seconds
+selectCodeEditor("top.v", 219, 171); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 631 seconds
+selectCodeEditor("top.v", 86, 201); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("top.v", 78, 195); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("top.v", 74, 196); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 37 seconds
+selectCodeEditor("top.v", 149, 195); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 37 seconds
+selectCodeEditor("top.v", 243, 284); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 402, 280); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor("top.v", 101, 80); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 416, 335); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 424, 334); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 424, 334, false, false, false, false, true); // bF:I (JPanel:JComponent, cd:JFrame) - Double Click
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 571, 338); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// [GUI Memory]: 96 MB (+1190kb) [01:20:21]
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // v:K (u:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// bt:g (cd:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Apr 07 18:43:51 2021] Launched synth_1... Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/synth_1/runme.log [Wed Apr 07 18:43:51 2021] Launched impl_1... Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bt:g (cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 126 seconds
+dismissDialog("Bitstream Generation Completed"); // ah:y (cd:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, cd:JFrame)
+selectMenuItem((HResource) null, "xc7a100t_0"); // ac:JMenuItem (ai:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// be:aj (cd:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, be:aj)
+// bt:g (cd:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // be:aj (cd:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'B' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bt:g (cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 44 MB. Current time: 4/7/21 6:50:25 PM EDT
+// Elapsed time: 315 seconds
+selectCodeEditor("top.v", 77, 95); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("top.v", 359, 240); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("top.v", 104, 282); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 155, 267); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 155, 267, false, true, false, false, false); // bF:I (JPanel:JComponent, cd:JFrame) - Control Key
+selectCodeEditor("top.v", 239, 260); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("top.v", 57, 129); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 69, 72); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 131, 230); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 102, 183); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 139, 352); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 222, 349); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 352, 348); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 76 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // v:K (u:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ai:r (cd:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, ai:r)
+// bt:g (cd:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Save Project"); // ai:r (cd:JFrame)
+dismissDialog("Save Constraints"); // bt:g (cd:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_LAUNCH
+// bt:g (cd:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Apr 07 18:54:05 2021] Launched impl_1... Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 63 seconds
+dismissDialog("Bitstream Generation Completed"); // ah:y (cd:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, cd:JFrame)
+selectMenuItem((HResource) null, "xc7a100t_0"); // ac:JMenuItem (ai:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// be:aj (cd:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, be:aj)
+// bt:g (cd:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // be:aj (cd:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'B' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bt:g (cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 43 MB. Current time: 4/7/21 8:08:57 PM EDT
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// Elapsed time: 4446 seconds
+selectCodeEditor("top.v", 197, 280); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 169 seconds
+selectCodeEditor("top.v", 69, 387); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 37, 164); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 36, 164); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("top.v", 28, 337); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 22, 284); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 29, 347); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 68, 404); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 112, 115); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 148, 183); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 166, 208); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 34, 201); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("top.v", 167, 218); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 183, 233); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 219, 360); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 181, 351); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 182, 404); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 32, 214); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 45, 297); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 28 seconds
+selectCodeEditor("top.v", 31, 440); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 31, 440); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 329, 198); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 373, 193); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 224, 196); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("top.v", 109, 397); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 126, 398); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 106, 332); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 337, 382); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 42, 369); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 422, 384); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 224, 332); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 563, 348); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 305, 333); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 52 seconds
+selectCodeEditor("top.v", 64, 419); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 141, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("top.v", 229, 387); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 248, 379); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 299, 406); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 308, 401); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 73, 328); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 62, 256); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 56, 242); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 281, 381); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 599, 321); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 137, 336); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 42, 352); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 131, 331); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 48, 368); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 117, 299); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 377, 336); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 96, 297); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 550, 336); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 37, 348); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 64, 350); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // v:K (u:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// bt:g (cd:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Apr 07 20:18:05 2021] Launched synth_1... Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/synth_1/runme.log [Wed Apr 07 20:18:05 2021] Launched impl_1... Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bt:g (cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 102 MB (+1536kb) [02:55:12]
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 101 seconds
+dismissDialog("Bitstream Generation Completed"); // ah:y (cd:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, cd:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, cd:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, cd:JFrame)
+selectMenuItem((HResource) null, "xc7a100t_0"); // ac:JMenuItem (ai:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// be:aj (cd:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, be:aj)
+// bt:g (cd:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // be:aj (cd:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'B' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bt:g (cd:JFrame)
+// Elapsed time: 909 seconds
+selectCodeEditor("top.v", 43, 124); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 109, 379); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("top.v", 39, 232); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 40, 336); // bF:I (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 43 MB. Current time: 4/7/21 8:38:57 PM EDT
+// Elapsed time: 545 seconds
+selectCodeEditor("top.v", 205, 190); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 181, 160); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 73 seconds
+selectCodeEditor("top.v", 80, 161); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 66, 317); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("top.v", 113, 248); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 166, 315); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 35 seconds
+selectCodeEditor("top.v", 173, 76); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 284, 80); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("top.v", 98, 76); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 176, 338); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 27 seconds
+selectCodeEditor("top.v", 167, 160); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("top.v", 52, 180); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 57, 178); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 57, 181); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 65, 183); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 53, 180); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 325, 360); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 105, 169); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 103, 179); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 220, 419); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("top.v", 100, 288); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 40 seconds
+selectCodeEditor("top.v", 86, 319); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 37 seconds
+selectCodeEditor("top.v", 130, 371); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 35 seconds
+selectCodeEditor("top.v", 236, 333); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 288, 337); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 51 seconds
+selectCodeEditor("top.v", 209, 336); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 179, 371); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 37 seconds
+selectCodeEditor("top.v", 183, 334); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 189, 342); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 184, 332); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 204, 417); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 310, 331); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("top.v", 56, 350); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 139, 452); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 118, 350); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("top.v", 205, 312); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 41 seconds
+selectCodeEditor("top.v", 133, 336); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("top.v", 54, 213); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 177, 309); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 81, 283); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 210, 318); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 61, 180); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 57, 266); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 95, 292); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 83, 283); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 125, 330); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 200, 397); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 106, 356); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 224, 362); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("top.v", 267, 311); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 35 seconds
+selectCodeEditor("top.v", 47, 213); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 115, 398); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("top.v", 279, 316); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 126, 433); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 196, 450); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 265, 451); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 26 seconds
+selectCodeEditor("top.v", 285, 211); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 269, 192); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 114, 232); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 241, 278); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 260, 253); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 256, 282); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 112, 319); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 255, 369); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 113, 408); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 112, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 55, 421); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("top.v", 113, 250); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 159, 347); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 205, 348); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("top.v", 179, 363); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("top.v", 198, 277); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 140, 283); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 137, 262); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("top.v", 112, 386); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("top.v", 69, 80); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 108, 191); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("top.v", 185, 320); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 92, 334); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 31 seconds
+selectCodeEditor("top.v", 210, 288); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 319, 300); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 256, 263); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 302, 285); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 213, 208); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 211, 200); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 326, 218); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 266, 182); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 314, 197); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 217, 109); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 327, 132); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 278, 104); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 265, 97); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 321, 129); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 172, 154); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 137, 150); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 149, 176); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 251, 181); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 288, 268); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 200, 288); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 248, 299); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 250, 299, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectCodeEditor("top.v", 250, 299); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 163, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 248, 292); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 163, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 91, 335); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 23 seconds
+selectCodeEditor("top.v", 97, 358); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 93, 352); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("top.v", 118, 335); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("top.v", 124, 354); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 137, 198); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 197, 354); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 83, 364); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 254, 352, false, false, false, true, false); // bF:I (JPanel:JComponent, cd:JFrame) - Popup Trigger
+selectCodeEditor("top.v", 234, 350); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 255, 348); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 117, 377); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 117, 377); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 149, 351); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 93, 377); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 66, 401); // bF:I (JPanel:JComponent, cd:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top (top.v)]", 1); // y:i (D:JPanel, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 49 MB. Current time: 4/7/21 9:08:58 PM EDT
+// Elapsed time: 414 seconds
+selectCodeEditor("top.v", 67, 448); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 61, 440); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // y:i (D:JPanel, cd:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z:JMenu (ai:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z:JMenu (ai:JPopupMenu, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ac:JMenuItem (ai:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cd:JFrame): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a:JButton (C:JPanel, b:g)
+// F:q (b:g): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "music"); // ak:JTextField (JPanel:JComponent, F:q)
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_LOCATION, "Choose Location...", 1); // e:JComboBox (JPanel:JComponent, F:q)
+// Elapsed time: 14 seconds
+setFolderChooser("C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/src/hdl");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, F:q)
+dismissDialog("Create Source File"); // F:q (b:g)
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'h' command handler elapsed time: 33 seconds
+dismissDialog("Add Sources"); // b:g (cd:JFrame)
+// Tcl Message: close [ open C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/src/hdl/music.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/src/hdl/music.v 
+// I:q (cd:JFrame): Define Module: addNotify
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 0, (String) null, 0); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "clk", 0, "Port Name", 0); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 1, "input", 1); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output", 1, "Direction", 1); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; output ; false ; 0 ; 0", 1, (String) null, 0); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; output ; false ; 0 ; 0", 1, "output", 1); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "input", 1, "Direction", 1); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 1, (String) null, 0); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "counter", 1, "Port Name", 0); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, " ; input ; false ; 0 ; 0", 2, (String) null, 0); // W:r (m:JViewport, I:q)
+// Elapsed time: 18 seconds
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output", 2, "Port Name", 0); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "counter ; input ; false ; 0 ; 0", 1, "counter", 0); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "clk_divider", 1, "Port Name", 0); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output ; input ; false ; 0 ; 0", 2, "output", 0); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "audio", 2, "Port Name", 0); // W:r (m:JViewport, I:q)
+selectTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "audio ; input ; false ; 0 ; 0", 2, "input", 1); // W:r (m:JViewport, I:q)
+editTable(PAResourceAtoD.DefineModulesDialog_DEFINE_MODULES_AND_SPECIFY_IO_PORTS, "output", 2, "Direction", 1); // W:r (m:JViewport, I:q)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, I:q)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Define Module"); // I:q (cd:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, music (music.v)]", 2, false); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, music (music.v)]", 2, false, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click
+selectCodeEditor("music.v", 54, 416); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 37 seconds
+selectCodeEditor("music.v", 31, 433); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "music.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 167, 382); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 69, 321); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 91, 320); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 91, 320); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 149, 381); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 176, 403); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 548, 424); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 341, 420); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 166, 422); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 101, 457); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 121, 297); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 77, 356); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 25 seconds
+selectCodeEditor("music.v", 81, 367); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 210, 248); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 21 seconds
+selectCodeEditor("music.v", 237, 344); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("music.v", 132, 404); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 120, 249); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "music.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 164, 419); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "music.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 125, 398); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 73, 188); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 75, 179); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 125, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 177, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 295, 420); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 139, 417); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 106, 416); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 103, 181); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("music.v", 157, 183); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "music.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 106, 439); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "music.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 174, 436); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "music.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 33, 384); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 132, 233); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 177, 246); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 252, 329); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 122, 263); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 62, 278); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 205, 362); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 48, 349); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 165, 386); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 187, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 210, 385); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 227, 362); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("music.v", 33, 383); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 92, 422); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("music.v", 25, 338); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 109, 446); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 18, 456); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 82, 416); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 50, 446); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 82, 423); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("music.v", 49, 435); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 11 seconds
+selectCodeEditor("music.v", 49, 384); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "music.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "music.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "music.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "music.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 15 seconds
+selectCodeEditor("top.v", 124, 359); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "music.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("music.v", 69, 351); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "music.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "music.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("music.v", 118, 364); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "music.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "music.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("music.v", 70, 386); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "music.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "music.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("music.v", 104, 401); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "music.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 102, 422); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 101, 436); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 74, 434); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 103, 332); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 105, 317); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("top.v", 147, 298); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 138, 77); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 147, 304); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 93, 335); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 154, 196); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 90, 335); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "music.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("top.v", 190, 218); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 286, 234); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 303, 179); // bF:I (JPanel:JComponent, cd:JFrame)
+// [GUI Memory]: 108 MB (+438kb) [03:55:30]
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 222, 213); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 287, 229); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 296, 231); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 206, 366); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 293, 402); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 102, 320); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 223, 413); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 294, 431); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // v:K (u:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// bt:g (cd:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Apr 07 21:19:32 2021] Launched synth_1... Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/synth_1/runme.log [Wed Apr 07 21:19:32 2021] Launched impl_1... Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bt:g (cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// [GUI Memory]: 115 MB (+1308kb) [03:56:39]
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 178 seconds
+dismissDialog("Bitstream Generation Completed"); // ah:y (cd:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, cd:JFrame)
+selectMenuItem((HResource) null, "xc7a100t_0"); // ac:JMenuItem (ai:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// be:aj (cd:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, be:aj)
+// bt:g (cd:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // be:aj (cd:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'B' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bt:g (cd:JFrame)
+// Elapsed time: 293 seconds
+selectCodeEditor("top.v", 318, 43); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 25 seconds
+selectCodeEditor("top.v", 74, 129); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // v:K (u:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// bt:g (cd:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Apr 07 21:28:06 2021] Launched synth_1... Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/synth_1/runme.log [Wed Apr 07 21:28:06 2021] Launched impl_1... Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bt:g (cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 98 seconds
+dismissDialog("Bitstream Generation Completed"); // ah:y (cd:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, cd:JFrame)
+selectMenuItem((HResource) null, "xc7a100t_0"); // ac:JMenuItem (ai:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// be:aj (cd:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, be:aj)
+// bt:g (cd:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // be:aj (cd:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'B' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bt:g (cd:JFrame)
+// Elapsed time: 76 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // v:K (u:D, cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5, true, false, false, false, true, false); // y:i (D:JPanel, cd:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z:JMenu (ai:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z:JMenu (ai:JPopupMenu, cd:JFrame)
+selectCodeEditor("top.v", 125, 299); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 25, 435); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 30, 400); // bF:I (JPanel:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-A7-100T-Master.xdc", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("Nexys-A7-100T-Master.xdc", 0, 105); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Run Implementation]", 21, false); // v:K (u:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // v:K (u:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ai:r (cd:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, ai:r)
+// bt:g (cd:JFrame):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+dismissDialog("Save Project"); // ai:r (cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// 'ci' command handler elapsed time: 3 seconds
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// Tcl Message: [Wed Apr 07 21:31:57 2021] Launched synth_1... Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/synth_1/runme.log [Wed Apr 07 21:31:57 2021] Launched impl_1... Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/impl_1/runme.log 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah:y (cd:JFrame): Bitstream Generation Failed: addNotify
+// Elapsed time: 107 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Bitstream Generation Failed"); // ah:y (cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("top.v", 145, 376); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // v:K (u:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// Tcl Message: [Wed Apr 07 21:34:03 2021] Launched synth_1... Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/synth_1/runme.log [Wed Apr 07 21:34:03 2021] Launched impl_1... Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 93 seconds
+dismissDialog("Bitstream Generation Completed"); // ah:y (cd:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, cd:JFrame)
+selectMenuItem((HResource) null, "xc7a100t_0"); // ac:JMenuItem (ai:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// be:aj (cd:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, be:aj)
+// bt:g (cd:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // be:aj (cd:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'B' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bt:g (cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 56 MB. Current time: 4/7/21 9:38:58 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 45 MB. Current time: 4/7/21 10:08:58 PM EDT
+// Elapsed time: 3641 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // g:JideTabbedPane (L:aE, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0]", 1, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// L:bt (cd:JFrame):  Re-customize IP : addNotify
+// p:g (cd:JFrame): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // L:bt (cd:JFrame)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cP:g (C:JPanel, p:g)
+// [GUI Memory]: 120 MB (+155kb) [05:13:31]
+// Elapsed time: 103 seconds
+setText("CLKOUT1 REQUESTED OUT FREQ", "25", true); // M:ak (cQ:L, p:g)
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, p:g)
+dismissDialog("Re-customize IP"); // p:g (cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.CLKOUT1_REQUESTED_OUT_FREQ {25} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKFBOUT_MULT_F {9.125} CONFIG.MMCM_CLKOUT0_DIVIDE_F {36.500} CONFIG.CLKOUT1_JITTER {181.828} CONFIG.CLKOUT1_PHASE_ERROR {104.359}] [get_ips clk_wiz_0] 
+// at:q (cd:JFrame): Generate Output Products: addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, at:q)
+// bt:g (cd:JFrame):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all clk_wiz_0] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run clk_wiz_0_synth_1 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs -jobs 6 clk_wiz_0_synth_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Apr 07 22:38:27 2021] Launched clk_wiz_0_synth_1... Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/clk_wiz_0_synth_1/runme.log 
+// Tcl Message: INFO: [Vivado 12-4357] Exporting simulation files for 'clk_wiz_0'... please wait for 'clk_wiz_0_synth_1' run to finish... 
+// Tcl Message: wait_on_run clk_wiz_0_synth_1 
+// Tcl Message: [Wed Apr 07 22:38:28 2021] Waiting for clk_wiz_0_synth_1 to finish... 
+// Tcl Message: [Wed Apr 07 22:38:33 2021] Waiting for clk_wiz_0_synth_1 to finish... 
+// Tcl Message: [Wed Apr 07 22:38:38 2021] Waiting for clk_wiz_0_synth_1 to finish... 
+// Tcl Message: [Wed Apr 07 22:38:43 2021] Waiting for clk_wiz_0_synth_1 to finish... 
+// Tcl Message: [Wed Apr 07 22:38:53 2021] Waiting for clk_wiz_0_synth_1 to finish... 
+// TclEventType: RUN_COMPLETED
+// Tcl Message: [Wed Apr 07 22:38:58 2021] clk_wiz_0_synth_1 finished 
+// Tcl Message: wait_on_run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:30 . Memory (MB): peak = 1183.699 ; gain = 0.000 
+// TclEventType: PROJECT_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 61 MB. Current time: 4/7/21 10:38:59 PM EDT
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 39 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+// Elapsed time: 101 seconds
+selectCodeEditor("top.v", 40, 436); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 46, 352); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("top.v", 113, 230); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 162, 348); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 161, 399); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 160, 448); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 40, 296); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 145, 280); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 27, 28); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys-A7-100T-Master.xdc", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // v:K (u:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// Tcl Message: [Wed Apr 07 22:41:57 2021] Launched synth_1... Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/synth_1/runme.log [Wed Apr 07 22:41:58 2021] Launched impl_1... Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 107 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ah:y)
+dismissDialog("Bitstream Generation Completed"); // ah:y (cd:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, cd:JFrame)
+selectMenuItem((HResource) null, "xc7a100t_0"); // ac:JMenuItem (ai:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// be:aj (cd:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, be:aj)
+// bt:g (cd:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // be:aj (cd:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'B' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bt:g (cd:JFrame)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.v", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectCodeEditor("top.v", 217, 218); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("top.v", 138, 335); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 75, 281); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 104, 283); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 382, 350); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 422, 352); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // v:K (u:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// 'ci' command handler elapsed time: 3 seconds
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// Tcl Message: [Wed Apr 07 22:44:54 2021] Launched synth_1... Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/synth_1/runme.log [Wed Apr 07 22:44:54 2021] Launched impl_1... Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 105 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, ah:y)
+dismissDialog("Bitstream Generation Completed"); // ah:y (cd:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, cd:JFrame)
+selectMenuItem((HResource) null, "xc7a100t_0"); // ac:JMenuItem (ai:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// be:aj (cd:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, be:aj)
+// bt:g (cd:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // be:aj (cd:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'B' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bt:g (cd:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// l:a (cd:JFrame): Close Hardware Target: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, l:a)
+dismissDialog("Close Hardware Target"); // l:a (cd:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// l:a (cd:JFrame): Close Hardware Target: addNotify
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Elapsed time: 1060 seconds
+dismissDialog("Close Hardware Target"); // l:a (cd:JFrame)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, cd:JFrame)
+selectMenuItem((HResource) null, "xc7a100t_0"); // ac:JMenuItem (ai:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// be:aj (cd:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, be:aj)
+// bt:g (cd:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // be:aj (cd:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'B' command handler elapsed time: 7 seconds
+dismissDialog("Program Device"); // bt:g (cd:JFrame)
+// Elapsed time: 58 seconds
+selectCodeEditor("top.v", 513, 350); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 18, 219); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 41, 329); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 166, 393); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 141, 370); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 166, 384); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 109, 352); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 180, 348); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 182, 301); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("top.v", 46, 145); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 184, 180); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 105, 196); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'c'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 337, 350); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+selectCodeEditor("top.v", 422, 350); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey((HResource) null, "top.v", 'v'); // bF:I (JPanel:JComponent, cd:JFrame)
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // v:K (u:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// y:aO (cd:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // y:aO (cd:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// bt:g (cd:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Apr 07 23:06:55 2021] Launched synth_1... Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/synth_1/runme.log [Wed Apr 07 23:06:55 2021] Launched impl_1... Run output will be captured here: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bt:g (cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// l:a (cd:JFrame): Close Hardware Target: addNotify
+// Elapsed time: 73 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, l:a)
+dismissDialog("Close Hardware Target"); // l:a (cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// ah:y (cd:JFrame): Bitstream Generation Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 57 MB. Current time: 4/7/21 11:08:59 PM EDT
+// Elapsed time: 55 seconds
+dismissDialog("Bitstream Generation Completed"); // ah:y (cd:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Elapsed time: 10 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, cd:JFrame)
+selectMenuItem((HResource) null, "xc7a100t_0"); // ac:JMenuItem (ai:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// be:aj (cd:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, be:aj)
+// bt:g (cd:JFrame):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // be:aj (cd:JFrame)
+// Tcl Message: set_property PROBES.FILE {} [lindex [get_hw_devices xc7a100t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Audio/lab9_v2/lab9_v2.runs/impl_1/top.bit} [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: program_hw_devices [lindex [get_hw_devices xc7a100t_0] 0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'B' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bt:g (cd:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// l:a (cd:JFrame): Close Hardware Target: addNotify
+// Elapsed time: 82 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, l:a)
+dismissDialog("Close Hardware Target"); // l:a (cd:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210292B06735A 
+// TclEventType: HW_SERVER_UPDATE
+// l:a (cd:JFrame): Close Hardware Target: addNotify
+// [GUI Memory]: 129 MB (+2806kb) [06:09:51]
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 56 MB. Current time: 4/7/21 11:38:59 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 55 MB. Current time: 4/8/21 12:08:59 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 55 MB. Current time: 4/8/21 12:39:00 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 54 MB. Current time: 4/8/21 1:09:00 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 54 MB. Current time: 4/8/21 1:39:00 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 54 MB. Current time: 4/8/21 2:09:00 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 55 MB. Current time: 4/8/21 2:39:01 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 55 MB. Current time: 4/8/21 3:40:08 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 54 MB. Current time: 4/8/21 4:10:08 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 54 MB. Current time: 4/8/21 4:40:08 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 54 MB. Current time: 4/8/21 5:10:08 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 54 MB. Current time: 4/8/21 5:40:09 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 85 MB. Current time: 4/8/21 6:10:09 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 54 MB. Current time: 4/8/21 6:40:09 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 54 MB. Current time: 4/8/21 7:10:09 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 54 MB. Current time: 4/8/21 7:41:29 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 54 MB. Current time: 4/8/21 8:11:30 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 54 MB. Current time: 4/8/21 8:41:30 AM EDT
+// Elapsed time: 35472 seconds
+dismissDialog("Close Hardware Target"); // l:a (cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 54 MB. Current time: 4/8/21 9:11:30 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 55 MB. Current time: 4/8/21 9:41:31 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 54 MB. Current time: 4/8/21 10:11:31 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 54 MB. Current time: 4/8/21 10:41:31 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 54 MB. Current time: 4/8/21 11:11:31 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 48 MB. Current time: 4/8/21 11:41:32 AM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 48 MB. Current time: 4/8/21 12:11:32 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 48 MB. Current time: 4/8/21 12:41:32 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 48 MB. Current time: 4/8/21 1:11:32 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 48 MB. Current time: 4/8/21 1:41:33 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 48 MB. Current time: 4/8/21 2:11:33 PM EDT
+// Elapsed time: 19051 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]. ]", 3, true, false, false, false, true, false); // ah:i (JViewport:JComponent, cd:JFrame) - Popup Trigger - Node
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // Z:JMenu (K:JPopupMenu, Popup:JWindow)
+selectMenuItem(PAResourceItoN.MsgTreePanel_DISCARD_USER_CREATED_MESSAGES, "Discard User Created Messages"); // ac:JMenuItem (K:JPopupMenu, Popup:JWindow)
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 56 MB. Current time: 4/8/21 2:41:33 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 54 MB. Current time: 4/8/21 3:11:34 PM EDT
+// Elapsed time: 4625 seconds
+selectCodeEditor("top.v", 135, 367); // bF:I (JPanel:JComponent, cd:JFrame)
+// Elapsed time: 248 seconds
+selectCodeEditor("top.v", 135, 367); // bF:I (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 54 MB. Current time: 4/8/21 3:41:34 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 54 MB. Current time: 4/8/21 4:11:34 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 54 MB. Current time: 4/8/21 4:41:34 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 53 MB. Current time: 4/8/21 5:51:48 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 55 MB. Current time: 4/8/21 6:21:49 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 53 MB. Current time: 4/8/21 6:51:49 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 54 MB. Current time: 4/8/21 7:21:49 PM EDT
+// HMemoryUtils.trashcanNow. Engine heap size: 678 MB. GUI used memory: 53 MB. Current time: 4/8/21 7:51:50 PM EDT
+// Elapsed time: 15094 seconds
+selectCodeEditor("top.v", 200, 365); // bF:I (JPanel:JComponent, cd:JFrame)

@@ -40,6 +40,7 @@ module clock (
         // Clock in ports
          .clk_in1(CLK100Mhz));      // input clk_in1
 
+        
        always @(posedge clk_5MHz) begin
                if (reset)
                 pulse_500Hz = 0;
@@ -60,7 +61,8 @@ module clock (
               end
               else divider_count_1Hz <= divider_count_1Hz - 1;   
       end
-
+      
+        
       //assign pulse_500Hz = (divider_count_500Hz == 0) ? 1 : 0;
       //assign pulse_1Hz = (divider_count_1Hz == 0) ? 1 : 0;
 

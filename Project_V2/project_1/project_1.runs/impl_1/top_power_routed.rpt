@@ -1,7 +1,7 @@
 Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2016.3 (win64) Build 1682563 Mon Oct 10 19:07:27 MDT 2016
-| Date             : Sun Apr 04 17:32:32 2021
+| Date             : Fri Apr 09 11:50:42 2021
 | Host             : DESKTOP-V2DGADJ running 64-bit major release  (build 9200)
 | Command          : report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
 | Design           : top
@@ -30,8 +30,8 @@ Table of Contents
 ----------
 
 +--------------------------+-------+
-| Total On-Chip Power (W)  | 0.216 |
-| Dynamic (W)              | 0.119 |
+| Total On-Chip Power (W)  | 0.215 |
+| Dynamic (W)              | 0.118 |
 | Device Static (W)        | 0.097 |
 | Effective TJA (C/W)      | 4.6   |
 | Max Ambient (C)          | 84.0  |
@@ -50,17 +50,17 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |    <0.001 |        8 |       --- |             --- |
-| Slice Logic    |    <0.001 |      276 |       --- |             --- |
-|   LUT as Logic |    <0.001 |      120 |     63400 |            0.19 |
-|   Register     |    <0.001 |      105 |    126800 |            0.08 |
+| Slice Logic    |    <0.001 |      273 |       --- |             --- |
+|   LUT as Logic |    <0.001 |      121 |     63400 |            0.19 |
+|   Register     |    <0.001 |      104 |    126800 |            0.08 |
 |   CARRY4       |    <0.001 |       14 |     15850 |            0.09 |
 |   BUFG         |    <0.001 |        1 |        32 |            3.13 |
 |   Others       |     0.000 |       10 |       --- |             --- |
-| Signals        |    <0.001 |      173 |       --- |             --- |
+| Signals        |    <0.001 |      167 |       --- |             --- |
 | MMCM           |     0.086 |        1 |         6 |           16.67 |
-| I/O            |     0.032 |       26 |       210 |           12.38 |
+| I/O            |     0.031 |       26 |       210 |           12.38 |
 | Static Power   |     0.097 |          |           |                 |
-| Total          |     0.216 |          |           |                 |
+| Total          |     0.215 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -144,7 +144,7 @@ Table of Contents
 +----------------+-----------+
 | Name           | Power (W) |
 +----------------+-----------+
-| top            |     0.119 |
+| top            |     0.118 |
 |   mindstone    |    <0.001 |
 |   powerstone   |    <0.001 |
 |     ironman    |    <0.001 |
