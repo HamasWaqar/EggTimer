@@ -1,0 +1,20 @@
+Vivado Simulator 2016.3
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.3/bin/unwrapped/win64.o/xelab.exe -wto 1d67971105ce4a3281043f0753769aa3 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-426] cannot find port minute_tens on this module [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sim_1/imports/testbench/top_tb.v:48]
+ERROR: [VRFC 10-426] cannot find port clk on this module [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sim_1/imports/testbench/top_tb.v:49]
+ERROR: [VRFC 10-426] cannot find port enable_timer_countdown on this module [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sim_1/imports/testbench/top_tb.v:56]
+ERROR: [VRFC 10-426] cannot find port enable_load on this module [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sim_1/imports/testbench/top_tb.v:57]
+ERROR: [VRFC 10-426] cannot find port load_second_ones on this module [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sim_1/imports/testbench/top_tb.v:58]
+ERROR: [VRFC 10-426] cannot find port load_second_tens on this module [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sim_1/imports/testbench/top_tb.v:59]
+ERROR: [VRFC 10-426] cannot find port load_minute_ones on this module [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sim_1/imports/testbench/top_tb.v:60]
+ERROR: [VRFC 10-426] cannot find port load_minute_tens on this module [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sim_1/imports/testbench/top_tb.v:61]
+ERROR: [VRFC 10-426] cannot find port debounce_min on this module [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sim_1/imports/testbench/top_tb.v:62]
+ERROR: [VRFC 10-426] cannot find port debounce_sec on this module [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sim_1/imports/testbench/top_tb.v:63]
+ERROR: [VRFC 10-426] cannot find port second_ones on this module [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sim_1/imports/testbench/top_tb.v:64]
+ERROR: [VRFC 10-426] cannot find port second_tens on this module [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sim_1/imports/testbench/top_tb.v:65]
+ERROR: [VRFC 10-426] cannot find port minute_ones on this module [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sim_1/imports/testbench/top_tb.v:66]
+ERROR: [VRFC 10-426] cannot find port minute_tens on this module [C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sim_1/imports/testbench/top_tb.v:67]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

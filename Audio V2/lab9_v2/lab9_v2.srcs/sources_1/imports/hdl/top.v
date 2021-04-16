@@ -33,7 +33,6 @@ module top(
     wire clk_5MHz;
     reg clk_2dot5MHz = 0;
     reg clk_100Hz = 0;
-    reg [15:0] counter;
     reg clk_1ms = 0;
     
     
@@ -53,7 +52,7 @@ module top(
         1111 (7) - 0011 (3) = 1100
       */
     reg [29:0] sound_tone;
-    
+    reg [15:0] counter;
     reg [14:0] clkdivider;
     
     function reg high_freq_sound;

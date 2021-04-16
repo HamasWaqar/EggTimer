@@ -1,0 +1,16 @@
+0.6
+2016.3
+Oct 10 2016
+19:46:48
+C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.sim/sim_1/behav/glbl.v,1476033524,verilog,,,,glbl,,,,,,,,
+C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sim_1/imports/testbench/top_tb.v,1617515950,verilog,,,,top_tb,,,../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/imports/hdl/bcdto7segment_dataflow.v,1617394138,verilog,,,,bcdto7segment_dataflow,,,../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/imports/hdl/bcdto7segment_display.v,1617571850,verilog,,,,bcdto7segment_display,,,../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/imports/hdl/clock.v,1617987876,verilog,,,,clock,,,../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/imports/hdl/debounce.v,1617563334,verilog,,,,debounce,,,../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/imports/hdl/egg_timer_fsm.v,1617982340,verilog,,,,egg_timer_fsm,,,../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/imports/hdl/timer.v,1617985648,verilog,,,,timer,,,../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/imports/hdl/top.v,1617988637,verilog,,,,top,,,../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_sim_netlist.v,1617987836,verilog,,,,clk_wiz_0;clk_wiz_0_clk_wiz_0_clk_wiz,,,../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/src/hdl/Audio.v,1617988710,verilog,,,,Audio,,,../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2 - with implementation/src/hdl/microphone.v,1617988641,verilog,,,,microphone,,,../../../project_1.srcs/sources_1/ip/clk_wiz_0,,,,,
