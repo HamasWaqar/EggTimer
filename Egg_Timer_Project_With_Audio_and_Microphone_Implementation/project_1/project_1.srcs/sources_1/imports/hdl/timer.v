@@ -28,11 +28,13 @@ module timer(
     input load,
     input enable,
     input enable_timer,
+    output endtime,
     output reg [3:0] second_ones,
     output reg [3:0] second_tens,
     output reg [3:0] minute_ones,
     output reg [3:0] minute_tens
     );
+    
     /*
         if the egg timer is in the set_time state as indicated by load input being high, then a time can be loaded into the egg timer
         if the egg timer is the timer_state, as indicated by the enable timer input, then the timer is enable to count down
@@ -44,7 +46,7 @@ module timer(
     function [3:0] downcount;
         input [3:0] current_number;
         input ten_digit;
-        begin;
+        begin
             if (ten_digit && (current_number == 4'd0))
                 downcount = 4'd5;
             else if (~ten_digit && (current_number == 4'd0))
@@ -54,8 +56,9 @@ module timer(
         end
     endfunction
 
-    wire enable_second_ten, enable_minute_one, enable_minute_ten, endtime;
+    wire enable_second_ten, enable_minute_one, enable_minute_ten;
     
+    assign endtime = ((second_ones == 0) && (second_tens == 0) && (minute_ones == 0) && (minute_tens == 0)) ? 1 : 0;
     /*
        Timer block: loads and counts down the time for the timer
     */
@@ -89,7 +92,5 @@ module timer(
           end
         end
     end
-
-
 
 endmodule

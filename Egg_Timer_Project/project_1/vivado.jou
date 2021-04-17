@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2016.3 (64-bit)
+# SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+# IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+# Start of session at: Fri Apr 16 15:52:55 2021
+# Process ID: 28884
+# Current directory: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent25064 C:\Users\hamas\Documents\Carleton\ELEC3500\Lab9\Project_V2\project_1\project_1.xpr
+# Log file: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/vivado.log
+# Journal file: C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/hamas/Documents/Carleton/ELEC3500/Lab9/Project_V2/project_1/project_1.xpr

@@ -35,7 +35,12 @@ module top(
     );  
     
     
-    // Generating the required clock frequencies
+    /*
+        The eggtimer will be running at two clock frequencies; at 1 Hz and 500 Hz. 
+        The 1 Hz clock will be controlling the timer aspect of the egg timer, as it will be counting down the time every 1 second
+        The 500 Hz clock will be controlling the four seven segment displays by alternating the seven segment displays making it seem
+        that the four seven segment display is on to the human eye. 
+    */
     clock timestone (
         .CLK100Mhz(CLK100MHZ),
         .reset (reset),

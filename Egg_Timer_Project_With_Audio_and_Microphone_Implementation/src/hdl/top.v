@@ -26,23 +26,34 @@ module top(
     input start,
     input reset,
     input enable_timer,
-    output pulse_500Hz,
-    output pulse_1Hz,
     output [6:0] seg,
     output [7:0] AN,
-    output reg enable_timer_countdown_output, 
-    output enable_timer_output
+    output M_CLK,
+    input M_DATA,
+    output M_LRSEL,
+    output [15:0] LED,
+    input enable_mike,
+    output AUD_PWM,
+    output AUD_SD,
+    input [2:0] audioselection,
+    input endsound
     );  
     
+    wire pulse_500Hz, pulse_1Hz, pulse_2dot5MHz, pulse_100KHz, pulse_25MHz, pulse_5MHz;
     
     // Generating the required clock frequencies
     clock timestone (
         .CLK100Mhz(CLK100MHZ),
         .reset (reset),
         .pulse_500Hz (pulse_500Hz),
-        .pulse_1Hz (pulse_1Hz)
+        .pulse_1Hz (pulse_1Hz),
+        .pulse_2dot5MHz (pulse_2dot5MHz),
+        .pulse_100KHz (pulse_100KHz),
+        .pulse_5MHz(pulse_5MHz)
     );
     
+        
+        
     wire debounce_minutes, debounce_seconds;
     //wire enable_timer_countdown, enable_load;
     wire [3:0] load_second_ones;
@@ -53,7 +64,7 @@ module top(
     wire [3:0] second_tens;
     wire [3:0] minute_ones;
     wire [3:0] minute_tens;
-    
+
     // syncronizing the minute input through a debounce
     debounce soulstone (
         .pulse_1Hz (pulse_1Hz),
@@ -88,6 +99,8 @@ module top(
         .load_minute_tens (load_minute_tens)
     ); 
     
+    wire endtime;
+    
     //timer that loads the starting time in the egg timer or counts down depending on the operating state
     timer spacestone(
         .pulse_1Hz (pulse_1Hz),
@@ -99,30 +112,14 @@ module top(
         .load (enable_load),
         .enable (enable_timer_countdown),
         .enable_timer (enable_timer),
+        .endtime (endtime),
         .second_ones (second_ones),
         .second_tens (second_tens),
         .minute_ones (minute_ones),
         .minute_tens (minute_tens)
         );
         
-        
-        
-        //LED flashing indicating that the timer is counting down
-        
-        always @(posedge pulse_1Hz or posedge reset) begin
-            if (reset) begin
-                enable_timer_countdown_output <= 0;
-            end else begin
-                  if (enable_timer_countdown) begin
-                        enable_timer_countdown_output <= (enable_timer_countdown_output) ? 0 : 1;
-                  end else
-                        enable_timer_countdown_output <= 0;
-            end
-        end
-        
-     assign enable_timer_output = enable_timer;
-     
-     //load the time into the BCD Display   
+     //load the time into the BCD Display    
      bcdto7segment_display powerstone(
         .pulse_500Hz (pulse_500Hz),
         .sec_digit1 (second_ones),
@@ -132,6 +129,38 @@ module top(
         .seg (seg),
         .AN (AN)
       );
-
+      
+      /*
+      Samples the audio from the microphone at 100 KHz and display the every 10000 sample on the LED. 
+      This results in the LEDs following the rythm of the music
+      
+      Audio Sampling will be determined using 1 bit per sample resulting in the two quantization amplitude levels. In other words,
+      the sample will detect the is the audio is on or not at that second of sampling.
+      */
+      microphone starlord(
+          .pulse_2dot5MHz (pulse_2dot5MHz),
+          .pulse_100KHz (pulse_100KHz),
+          .reset (reset),
+          .enable_mike (enable_mike),
+          .M_DATA (M_DATA),
+          .M_CLK (M_CLK),
+          .M_LRSEL (M_LRSEL),
+          .LED (LED)
+      );
+      
+        /*
+            A multitone squarewave audio is played when the timer ends (ie. 00 : 00) 
+            There are 5 programable tones that the user can choose from ranging at different frequnecies.
+        */
+      
+      Audio hulksmash(
+          .pulse_5MHz (pulse_5MHz),
+          .reset (reset),
+          .endsound(endsound),
+          .endtime (((second_ones == 0) && (second_tens == 0) && (minute_ones == 0) && (minute_tens == 0))),
+          .audioselection (audioselection),
+          .AUD_PWM (AUD_PWM),
+          .AUD_SD (AUD_SD)
+      );
 
 endmodule

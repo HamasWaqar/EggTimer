@@ -44,8 +44,7 @@ module egg_timer_fsm (
     Using a state diagram to switch between the two configurations of the egg timer: the set time state and the timer_state
     set_time State is the state where the time is loaded into the timer
     Timer_state is the states that runs the timer
-    */
-    
+    */ 
     always @ (state or cook_time or start) begin
        case (state)
             set_time: begin
@@ -72,7 +71,7 @@ module egg_timer_fsm (
     end
 
     /*
-        Function upcounter to count BCD imcrementally to load the time
+            Function upcounter to count BCD imcrementally to load the time
     */
     function [3:0] upcount;
         input [3:0] current_number;

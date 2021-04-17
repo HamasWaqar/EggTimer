@@ -24,6 +24,7 @@ module debounce (
     input reset,
     output minutes_seconds_debounce
     );  
+
     /*
     
         IDEA: Need to Get to bits in a datastream high consistantly... in other words, need to find when there is two continous
@@ -37,7 +38,7 @@ module debounce (
             current state S1: if next bit is 0, then two sequencial bit is not found as such next state is S0
             current state S11: if next bit is 0, then the sequency breaks so next state is S0
             current state S11: if next bit is 1, then again two sequenctial bits is found as such next state is S11 and debounde is 1
-    **/
+    */
     parameter S0 = 0, S1 = 1, S11 = 2;
     reg [1:0] state;
     reg [1:0] nextstate;

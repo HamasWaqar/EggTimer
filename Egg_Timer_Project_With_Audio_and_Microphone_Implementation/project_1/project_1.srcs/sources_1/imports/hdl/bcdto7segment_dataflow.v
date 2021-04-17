@@ -19,15 +19,15 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-
 module bcdto7segment_dataflow(
     input [3:0] v,
     output [6:0] seg
     );
     
      /*
-         instances the anodes in the seven segment display for each number from  0 to 9
-      */     
+       instances the anodes in the seven segment display for each number from  0 to 9
+    */
+        
      wire a,b,c,d;
      
      assign a = v[3];
